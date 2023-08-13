@@ -1,14 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import { useTypewriter } from "react-simple-typewriter";
 import main from "../assets/images/main.png";
-
+import Typewriter from "typewriter-effect";
 const Hero = () => {
-  const [text] = useTypewriter({
-    words: ["Outreach", "Marketing"],
-    loop: 0,
-  });
-
   return (
     <main className=" my-20 flex items-center justify-center flex-col">
       <div className="h-fit flex items-end">
@@ -23,8 +17,15 @@ const Hero = () => {
           </h2>
         </div>
       </div>
-      <h2 className="text-[5rem] font-semibold  text-gray-700 mr-7 ">
-        {text} Problems
+      <h2 className="text-[5rem] font-semibold  text-gray-700 mr-7 flex ">
+        <Typewriter
+          options={{
+            strings: ["Outreach Problems", "Marketing Problems"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        {/* Problems */}
       </h2>
       <div className="mt-20">
         <img src={main} alt="" className="scale-105" />

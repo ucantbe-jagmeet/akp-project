@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  --primary-natural:#EFEFED;
+  --primary-black1:#5C5C5B;
+  --primary-black2:#333232;
+
+  --primary-color1:#FFA56D;
+  --primary-color2:#FF5C2B;
+  --primary-gradient-color1:#FF5C2B;
+  --primary-gradient-color2:#FFA56D;
+  
+  --primary-btn-color1:#FFAC75;
+  --primary-btn-color2:#FE6468;
+  --primary-btn-color3:#AD71F2;
+}
+body{
+  background-color: #EFEFED ;
+}

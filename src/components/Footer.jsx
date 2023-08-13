@@ -3,7 +3,7 @@ import img1 from "../assets/images/logo1.png";
 
 const Footer = () => {
   return (
-    <div className="h-[70vh] bg-[--primary-black2] grid grid-cols-2 ">
+    <div className="h-[70vh] bg-[--primary-black2] grid grid-cols-2 mt-24">
       <div className="flex flex-col items-start text-white justify-around px-10">
         <h2 className="text-5xl font-semibold tracking-wide">
           Lets Work <br /> together

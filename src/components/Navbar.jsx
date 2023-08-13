@@ -33,7 +33,7 @@ const Navbar = () => {
         })}
       </div>
       <div>
-        <Button />
+        <Button text="Get Started" />
       </div>
     </main>
   );

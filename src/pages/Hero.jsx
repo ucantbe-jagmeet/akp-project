@@ -27,7 +27,7 @@ const Hero = () => {
         />
         {/* Problems */}
       </h2>
-      <div className="mt-20">
+      <div className="mt-24">
         <img src={main} alt="" className="scale-105" />
       </div>
     </main>
